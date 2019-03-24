@@ -1,3 +1,3 @@
-# Album covers modal
+# CD Covers Menu
 
 ## http://raigriffioen.nl/fro/albumcovermenu/
