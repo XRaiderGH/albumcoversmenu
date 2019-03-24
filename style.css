@@ -1,5 +1,5 @@
 
-#toggleMenu:checked ~ div.wrapper {
+#toggleMenu:checked ~ div.wrapper{
   margin-left: 10em;
 }
 #toggleMenu{

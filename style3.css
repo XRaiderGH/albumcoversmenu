@@ -1,9 +1,8 @@
 #top{
   transition: transform .2s ease-in-out;
 }
-#toggleMenu:checked ~ .navBehind{
-  margin-left: 0;
-  margin-right: 0;
+#toggleMenu:checked ~ .navBehind, #toggleLabel{
+transform: translateX(+10em) !important;
 }
 
 #toggleMenu{
@@ -25,6 +24,7 @@ content: "\2716";
   font-weight: 900;
 }
 .navBehind{
+  transition: transform 0.2s ease-in-out;
   text-align: center;
   padding-top: 2em;
   width: 10em;
@@ -35,7 +35,6 @@ content: "\2716";
   display: flex;
   position: absolute;
   margin-left: -10em;
-  margin-right: 10em;
   /*transform: translate(-10em, -1.5em);*/
 }
 .collapseNavButton{
@@ -210,7 +209,6 @@ form.loginRegisterForm{
   }
 
   #toggleLabel{
-    position: absolute;
     display: contents;
     color: white;
     cursor: pointer;
